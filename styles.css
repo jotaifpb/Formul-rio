@@ -33,10 +33,6 @@ body{
   .inputBox{
     position: relative;
   }
-@media (min-width=600px) and (max-width=800px){
-  .body .box{
-    width:100%;
-  }
 }
   .inputUser{
     background: none;
@@ -100,7 +96,7 @@ footer img{
     padding-right: 5px;
 }
 @media (min-width=500px) and (max-width=800px){
-  .body .box{
+  .body .box .fieldset .legend{
     width:100%;
   }
 }
